@@ -1,0 +1,23 @@
+.apod-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(153, 115, 202, 0.151);
+}
+
+.apod-img{
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+.apod-expl{
+    color: white;
+    font-size: small;
+    padding: 0 20%;
+    text-align: justify;
+}
+
+

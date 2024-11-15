@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 100px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(153, 115, 202, 0.151);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 2px;
+    background: -webkit-linear-gradient(#533c7e, #7e61c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-btn{
+    margin: 10px;
+    color: #392955;    
+}
+
+.nav-btn:hover{
+    color: #4f3975;  
+}
